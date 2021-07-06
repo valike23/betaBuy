@@ -3,10 +3,10 @@
   "description": "TODO",
   "version": "0.0.1",
   "scripts": {
-    "start": "sapper dev",
-    "build": "sapper build --legacy",
+    "dev": "sapper dev",
+    "build": "npm i && sapper build --legacy",
     "export": "sapper export --legacy",
-    "dev": "node __sapper__/build",
+    "start": "node __sapper__/build",
     "validate": "svelte-check --ignore src/node_modules/@sapper"
   },
   "dependencies": {
