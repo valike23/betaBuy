@@ -15,6 +15,7 @@
   <ul class="sidenav-nav ps-0">
     <li><a href="profile.html"><i class="lni lni-user"></i>My Profile</a></li>
     <li><a href="notifications.html"><i class="lni lni-alarm lni-tada-effect"></i>Notifications<span class="ms-3 badge badge-warning">3</span></a></li>
+    <!-- svelte-ignore a11y-invalid-attribute -->
     <li class="suha-dropdown-menu"><a href="#"><i class="lni lni-cart"></i>Shop Pages</a>
       <ul>
         <li><a href="shop-grid.html">- Shop Grid</a></li>
