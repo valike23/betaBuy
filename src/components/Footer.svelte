@@ -32,8 +32,8 @@
           <a href="/blog"><i class="lni lni-rss-feed" />Feeds</a>
         </li>
        
-        <li on:click="{()=>{nav('settings')}}" class:active={route == "settings"}>
-          <a href="/settings"><i class="lni lni-cog" />Settings</a>
+        <li on:click="{()=>{nav('accounts')}}" class:active={route == "accounts"}>
+          <a href="/accounts"><i class="lni lni-user" />accounts</a>
         </li>
       </ul>
     </div>

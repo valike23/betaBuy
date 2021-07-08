@@ -32,7 +32,8 @@
         <li><a href="wishlist-list.html">- Wishlist List</a></li>
       </ul>
     </li>
-    <li><a href="settings.html"><i class="lni lni-cog"></i>Settings</a></li>
+    <li><a href="/settings"><i class="lni lni-cog"></i>Settings</a></li>
+    <li><a href="/about"><i class="lni lni-users"></i>About Us</a></li>
     <li><a href="intro.html"><i class="lni lni-power-switch"></i>Sign Out</a></li>
   </ul>
   <!-- Go Back Button-->

@@ -23,7 +23,8 @@
         address = address[1];
         console.log("2", address);
         if (!isMainPage)
-            if (address == "" || address == "category") {
+            if (address == "" || address == "category" 
+            || address == "about") {
                 isMainPage = true;
                 if (win.location) win.location.reload();
             }
